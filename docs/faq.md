@@ -13,7 +13,7 @@ SCM-Manager stores the complete data in a directory called .scm (the
 SCM-Manager home directory). This directory is located in the home
 directory of the user which is the owner of the process. Except for [rpm
 and
-deb](https://bitbucket.org/sdorra/scm-manager/wiki/RPM%20and%20DEB%20packages "wikilink")
+deb](RPM%20and%20DEB%20packages.md "wikilink")
 installations, for those installations the home directory is located at
 /var/lib/scm.
 

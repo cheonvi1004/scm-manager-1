@@ -2,7 +2,7 @@ Redmine Plugin
 --------------
 
 Is based on
-[scm-jira-plugin](https://bitbucket.org/sdorra/scm-manager/wiki/jira-plugin "wikilink")
+[scm-jira-plugin](jira-plugin.md "wikilink")
 
 The plugin enables the following features to integrate SCM-Manager to
 [Redmine](http://www.redmine.org/ "wikilink"):

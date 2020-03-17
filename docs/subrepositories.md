@@ -2,7 +2,7 @@ Mercurial Subrepositories
 -------------------------
 
 In the following examples i will use the
-[scm-cli-client](https://bitbucket.org/sdorra/scm-manager/wiki/command-line-client "wikilink")
+[scm-cli-client](command-line-client.md "wikilink")
 to create the repositories, but you can also use the web interface to
 create the repositories.
 
@@ -23,7 +23,7 @@ Create a repository for the main repository and for each nested
 repository. Configure the
 [scm-hgnested-plugin](https://bitbucket.org/sdorra/scm-hgnested-plugin "wikilink")
 like
-[this](https://bitbucket.org/sdorra/scm-manager/wiki/screenshots/scm-hgnested-plugin.png "wikilink").
+[this](screenshots/scm-hgnested-plugin.png "wikilink").
 
 ### Further reading
 

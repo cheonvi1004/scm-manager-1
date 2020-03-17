@@ -4,12 +4,12 @@ Code Snippets
 ### User Interface
 
 -   [extend
-    navigation](https://bitbucket.org/sdorra/scm-manager/wiki/snippet-extend-navigation "wikilink")
+    navigation](snippet-extend-navigation.md "wikilink")
 -   [add tab to repository
-    configuration](https://bitbucket.org/sdorra/scm-manager/wiki/snippet-repository-tab "wikilink")
+    configuration](snippet-repository-tab.md "wikilink")
 -   [extend global
-    configuration](https://bitbucket.org/sdorra/scm-manager/wiki/snippet-config-group "wikilink")
+    configuration](snippet-config-group.md "wikilink")
 
 === Backend ==
 
--   [Authentication](https://bitbucket.org/sdorra/scm-manager/wiki/snippet-authentication "wikilink")
+-   [Authentication](snippet-authentication.md "wikilink")

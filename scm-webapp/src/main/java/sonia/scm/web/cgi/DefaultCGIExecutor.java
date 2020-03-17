@@ -298,7 +298,7 @@ public class DefaultCGIExecutor extends AbstractCGIExecutor
 
     /**
      * Decode PATH_INFO
-     * https://bitbucket.org/sdorra/scm-manager/issue/79/hgweb-decoding-issue
+     * https://github.com/scm-manager/scm-manager/issues/79
      */
     if (Util.isNotEmpty(pathInfo))
     {
