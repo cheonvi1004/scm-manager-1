@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-    
+
 package sonia.scm.repository.spi;
 
 import com.github.sdorra.shiro.ShiroRule;
@@ -38,6 +38,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 import sonia.scm.repository.Person;
+import sonia.scm.repository.util.NoneCachingWorkdirProvider;
 import sonia.scm.repository.util.WorkdirProvider;
 import sonia.scm.web.lfs.LfsBlobStoreFactory;
 
@@ -101,7 +102,7 @@ public class GitModifyCommand_withEmptyRepositoryTest extends AbstractGitCommand
   }
 
   private GitModifyCommand createCommand() {
-    return new GitModifyCommand(createContext(), repository, new SimpleGitWorkdirFactory(new WorkdirProvider()), lfsBlobStoreFactory);
+    return new GitModifyCommand(createContext(), repository, new SimpleGitWorkdirFactory(new NoneCachingWorkdirProvider(new WorkdirProvider())), lfsBlobStoreFactory);
   }
 
   @FunctionalInterface
