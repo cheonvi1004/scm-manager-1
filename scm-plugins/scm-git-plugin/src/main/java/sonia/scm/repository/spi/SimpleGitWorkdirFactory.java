@@ -92,8 +92,8 @@ public class SimpleGitWorkdirFactory extends SimpleWorkdirFactory<Repository, Re
       git.reset().setMode(ResetCommand.ResetType.HARD).call();
       git.clean().setForce(true).setCleanDirectories(true).call();
       git.fetch().call();
-      git.branchDelete().setBranchNames(initialBranch).setForce(true).call();
       git.checkout().setForced(true).setName("origin/" + initialBranch).call();
+      git.branchDelete().setBranchNames(initialBranch).setForce(true).call();
       git.checkout().setName(initialBranch).setCreateBranch(true).call();
       return new ParentAndClone<>(null, repo, target);
     } catch (GitAPIException e) {
@@ -105,7 +105,7 @@ public class SimpleGitWorkdirFactory extends SimpleWorkdirFactory<Repository, Re
     }
   }
 
-  private String createScmTransportProtocolUri(File bareRepository) {
+  String createScmTransportProtocolUri(File bareRepository) {
     return ScmTransportProtocol.NAME + "://" + bareRepository.getAbsolutePath();
   }
 
