@@ -1,4 +1,4 @@
-# Common pitfall occurred while developing the SCM V2 
+# Common pitfalls developing the ui for SCM-Manager V2
 
 ## Introduction
 There are quite some common pitfalls which can cause an inconsistent or broken ui. 

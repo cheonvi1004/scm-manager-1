@@ -98,6 +98,6 @@ repositories over http.
 - [API changes](v2/api-changes.md)
 - [Permission concept](v2/permission-concept.md)
 - [Vulnerabilities](v2/vulnerabilities.md)
-- [Common pitfall](v2/common-pitfall.md)
+- [Common pitfall](docs/v2/ui-common-pitfalls.md)
 - [Release process](v2/release-process.md)
 - [Known Issues](v2/known-issues.md)
